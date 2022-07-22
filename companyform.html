@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <style>
+    body{
+            background-image: url('bg7.jfif');
+             background-repeat:no-repeat;
+             background-attachment:fixed;
+             background-size:100% 100%;
+            }
+          </style>
+  <title>Register Form</title>
+</head>
+<body>
+ <div align="center">
+               <h1> <font color="white"> Register as job provider</h1>
+      </div>
+ <form action="companydatainsert.php" method="POST">
+<table border="1" align="center" style="background-image:url('bg5.jfif');background-repeat:no-repeat;
+             background-attachment:fixed;
+             background-size:100% 100%;">
+  
+
+   <tr>
+    <td><font color="white">Company Username :</td>
+    <td><input type="text" name="comusername" required></td>
+   </tr>
+   <tr>
+    <td><font color="white">Password :</td>
+    <td><input type="password" name="compassword" required></td>
+   </tr>
+<tr>
+    <td><font color="white">Confirm Password :</td>
+    <td><input type="password" name="comconpassword" required></td>
+   </tr>
+   <tr>
+<tr>
+    <td><font color="white">Company Name :</td>
+    <td><input type="text" name="companyname" required></td>
+   </tr>
+<tr>
+    <td><font color="white">Company Email :</td>
+    <td><input type="email" name="comemail" required></td>
+   </tr>
+
+
+   <tr>
+    <td><font color="white">Company Location :</td>
+    <td><input type="text" name="location" required></td>
+   </tr> 
+
+
+  <tr>
+ 
+    <td><font color="white">Skill you are looking for in candidates       :</td>
+    
+   </tr>
+   <tr>
+    <td><font color="white">First Skill :</td>
+    <td><input type="text" name="skill1" required></td>
+   </tr>
+<tr>
+    <td><font color="white">Second Skill :</td>
+    <td><input type="text" name="secondskill" ></td>
+   </tr>
+   <tr>
+<tr>
+    <td><font color="white">Third Skill :</td>
+    <td><input type="text" name="thirdskill" required></td>
+   </tr>
+
+   <tr>
+    <td><font color="white">Forth Skill :</td>
+    <td><input type="text" name="forthskill" required></td>
+   </tr> 
+<tr>
+    <td><font color="white">Type of Industry :</td>
+    <td>
+     <select name="TOI" required>
+      <option selected hidden value=""><font color="white">Select Industry</option>
+      <option value="Aerospace">Aerospace</option>
+      <option value="Transport">Transport</option>
+      <option value="Computer">Computer</option>
+       <option value="Telecommunication">Telecommunication</option>
+       <option value="Construction">Construction</option>
+        <option value="Pharmaceutical">Pharmaceutical</option>
+       <option value="Education">Education</option>
+      <option value="Food">Food</option>
+        <option value="Healthcare">Healthcare</option>
+       <option value="Hospitality">Hospitality</option>
+        <option value="Entertainment">Entertainment</option>
+        <option value="News Media ">News Media </option>
+       <option value="Energy">Energy</option>
+       <option value="Manifacturing">Manifacturing</option>
+        <option value="Music">Music</option>
+       <option value="Mining">Mining</option>
+        <option value="Worldwide web">Worldwide web</option>
+        <option value="Electronics">Electronics</option>
+       
+  
+  
+     </select>
+<tr>
+    <td><font color="white">No. of Employees :</td>
+    <td>
+     <select name="NOE" required>
+      <option selected hidden value="">Select range of no of employees </option>
+      <option value="0-100">0-100</option>
+      <option value="100-500">100-500</option>
+      <option value="500-1000">500-1000</option>
+       <option value="1000-5000">1000-5000</option>
+       <option value="5000-20000">5000-20000</option>
+        <option value="20000-100000">20000-100000</option>
+       <option value="100000+">100000+</option>
+  
+     </select>
+
+
+   <tr>
+    <td><font color="white">Phone no :</td>
+    <td><font color="white">
+     <select name="comphonecode" required>
+      <option selected hidden value="">Select Code</option>
+      
+<option value="1">1</option>
+<option value="7">7</option>
+<option value="44">44</option>
+<option value="49">49</option>
+<option value="52">52</option>
+<option value="55">55</option>
+<option value="61">61</option>
+<option value="66">66</option>
+<option value="81">81</option>
+<option value="86">86</option>
+<option value="91">91</option>
+<option value="966">966</option>
+<option value="971">971</option>
+
+
+
+
+      
+     </select>
+     <input type="phone" name="comphone" required>
+    </td>
+   </tr>
+
+<tr>
+    <td><font color="white">How old the firm is :</td>
+    <td><font color="white">
+     <input type="radio" name="age" value="0-2" required>0-2 yrs
+     <input type="radio" name="age" value="2-5" required>2-5 yrs
+     <input type="radio" name="age" value="5+" required>5+ yrs
+    </td>
+   </tr>
+  
+
+   
+  </table>
+  
+    
+   </div>
+   <div align="center" >
+<style>
+   input[type=submit]
+{
+    /* your styles here, You can just increase its font size below*/
+    font-size: 20px; 
+    color: #FFFFFF;
+    margin-top: 2cm;
+    font-weight: bold;
+    font-family: ariel; 
+     box-shadow: 3px 3px;
+    background-color:#228B22;
+}
+</style>
+    <font color="blue",fon ><input type="submit" value="Next" name="submit">
+   </div>
+ </form>
+</body>
+</html>
